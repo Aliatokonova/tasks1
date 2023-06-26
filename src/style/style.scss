@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+body{
+    background-color: rgb(176, 135, 222);
+}
+
+.CreateButton{
+    display: flex;
+    color: #000;
+    font-size: 16px;
+    padding: 10px 25px;
+    border: 1px solid blue;
+    margin-bottom: 30px;
+    
+}
+.HomePage{
+    display: flex;
+    column-gap: 25px;
+    margin: 5% 0  4% 70%;
+}
+
+.create_button{
+    font-size: 16px;
+    padding: 10px 25px;
+    background: rgb(112, 216, 176);
+    border: none;
+    color:#fff;
+}
+.form{
+    margin: 0 auto;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(73, 209, 202);
+    row-gap: 20px;
+    width: 400px;
+    height: 400px;
+    cursor: pointer;
+    outline: none;
+    background: #2aafc7;
+    border-radius: 8px;
+}
+.input{
+    border: none;
+    outline: navy;
+    justify-content: center;
+    margin-top: 20px;
+    border: 1px solid rgb(67, 67, 196);
+    padding: 10px 25px;
+    margin: 2% 2%;
+}
+
